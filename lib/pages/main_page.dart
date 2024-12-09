@@ -35,7 +35,7 @@ class _MainPageState extends State<MainPage> {
       : PreferredSize(
         child:Container(child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 36, horizontal: 15),
-          child: Text("Categories", style: TextStyle(fontSize: 20),),
+          child: Text("Categories", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
         ),),
         preferredSize: Size.fromHeight(100)),
 
@@ -49,7 +49,7 @@ class _MainPageState extends State<MainPage> {
           child: Icon(Icons.add),
         ),
       ),
-      
+
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
         child: Row(
