@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("Income", style: TextStyle(color: Colors.white, fontSize: 12)),
+                          Text("Income", style: TextStyle(color: Colors.white, fontSize: 15)),
                           SizedBox(height: 10,),
                           Text('Rp. 5.000.000', style: TextStyle(color: Colors.white, fontSize: 12)),
                         ],
@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("Expense", style: TextStyle(color: Colors.white, fontSize: 12)),
+                          Text("Expense", style: TextStyle(color: Colors.white, fontSize: 15)),
                           SizedBox(height: 10,),
                           Text('Rp. 5.000.000', style: TextStyle(color: Colors.white, fontSize: 12)),
                         ],
@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
                 ),
 
                 width: double.infinity,
-                padding: EdgeInsets.all(50),
+                padding: EdgeInsets.all(40),
                 decoration: BoxDecoration(
                   color: Colors.blue,
                   borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -79,9 +79,12 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
 
-            Text("Transactions", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
-        
+            SizedBox(height: 30,),
 
+            Text("Transactions", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
+
+            SizedBox(height: 10,),
+        
             //List of transactions
 
             Padding(
